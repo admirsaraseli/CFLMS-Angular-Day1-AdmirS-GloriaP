@@ -1,7 +1,7 @@
-<div class="container marketing mx-auto bg-light">
+<div class="marketing mx-auto pt-4 bg-light">
     <div class="row container mx-auto">
-        <div  class="col-lg-3 cbox mr-5 mb-3" *ngFor="let item of [].constructor(6); let i = index">
-            <img  class ="rounded-circle"  src="https://cdn.pixabay.com/photo/2016/11/19/22/25/html5-1841458_960_720.png" 
+        <div  class="col-lg-3 cbox ml-5 mb-3" *ngFor="let item of [].constructor(6); let i = index">
+            <img  class ="rounded-circle"  src="/assets/img/{{images[i]}}" 
             width="140" height= "140">
             <h2>Destination: {{destination[i]}}</h2>
             <p>Price: {{price[i]}} Euro</p>

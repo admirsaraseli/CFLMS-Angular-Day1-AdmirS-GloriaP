@@ -14,10 +14,10 @@ export class HomePageComponent implements OnInit {
 
 	constructor() {
 		this.destination =  ["Zoo Vienna", "Castle of Prague", "Eiffel Tower", "Big Ben", "October Fest", "Sagrada Família"];
-	    this.price =  ["400 Euro", "300 ", "500 ", "600 ", "600 ", "600 "];
+	    this.price =  ["400 ", "300 ", "500 ", "600 ", "600 ", "600 "];
 	    this.numOfNights =  [4 , 4, 4, 4, 4, 4];
 	    this.city =  ["Vienna", "Prague", "Paris", "London", "Munich", "Barcelona"];
-	    this.images = [""];
+	    this.images = ["zoovienna.jpg", "cprague.jpg", "eiffel.jpg", "big ben.jpg", "octoberfest.jpg", "sagrada.jpg"];
 	}
 
 	ngOnInit(): void {
